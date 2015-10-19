@@ -1,0 +1,8 @@
+# Site settings
+title: Amelie Anglade's website
+description: Data Scientist and MIR specialist Amelie Anglade's website
+baseurl: ""
+url: "http://amelieanglade.net"
+
+# Build settings
+markdown: kramdown

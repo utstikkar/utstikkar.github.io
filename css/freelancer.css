@@ -25,6 +25,11 @@ a.active {
     color: #3fe3bb;
 }
 
+img.grey_scale {
+  -webkit-filter: grayscale(1) brightness(1.8);
+  filter: grayscale(1) brightness(1.8);
+}
+
 h1,
 h2,
 h3,

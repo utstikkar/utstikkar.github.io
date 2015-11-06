@@ -26,8 +26,8 @@ a.active {
 }
 
 img.grey_scale {
-  -webkit-filter: grayscale(1) brightness(1.8);
-  filter: grayscale(1) brightness(1.8);
+  -webkit-filter: grayscale(1) brightness(2);
+  filter: grayscale(1) brightness(2);
 }
 
 h1,

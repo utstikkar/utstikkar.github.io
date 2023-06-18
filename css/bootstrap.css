@@ -7,7 +7,7 @@
 */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-  font-family: sans-serif;
+  font-family: Urbane;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -117,6 +117,7 @@ select,
 textarea {
   color: inherit;
   font: inherit;
+  font-family: Urbane;
   margin: 0;
 }
 button {

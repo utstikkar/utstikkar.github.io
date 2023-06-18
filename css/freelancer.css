@@ -9,6 +9,7 @@ body {
 }
 
 p {
+    font-family: Urbane;
     font-size: 20px;
 }
 
@@ -188,6 +189,7 @@ section h2 {
 section.success {
     color: #fff;
     background: #3fe3bb;
+    font-family: Urbane;
 }
 
 section.success a,

@@ -117,7 +117,6 @@ select,
 textarea {
   color: inherit;
   font: inherit;
-  font-family: Urbane;
   margin: 0;
 }
 button {
@@ -4744,6 +4743,7 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   display: inline;
   padding: .2em .6em .3em;
   font-size: 75%;
+  font-family: Urbane;
   font-weight: bold;
   line-height: 1;
   color: #ffffff;

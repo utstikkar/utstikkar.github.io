@@ -7,11 +7,13 @@
 body {
     overflow-x: hidden;
     font-family: Urbane;
+    color: #103F59;
 }
 
 p {
     font-family: Urbane;
-    font-size: 20px;
+    font-size: 17px;
+    /* font-weight: 300; */
 }
 
 p.small {
@@ -24,7 +26,18 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #3fe3bb;
+    color: #13AC96;
+}
+
+b,
+strong {
+  font-weight: bold;
+  color: #E86749;
+}
+
+img {
+    vertical-align: middle;
+    padding: 1px 1px;
 }
 
 img.grey_scale {
@@ -41,6 +54,7 @@ h6 {
     text-transform: uppercase;
     font-family: Urbane;
     font-weight: 700;
+    color: #E86749;
 }
 
 hr.star-light,
@@ -65,20 +79,20 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #f97a63;
+    border-color: #E86749;
 }
 
 hr.star-light:after {
-    color: #f97a63;
-    background-color: #3fe3bb;
+    color: #E86749;
+    background-color: #13AC96;
 }
 
 hr.star-primary {
-    border-color: #f97a63;
+    border-color: #E86749;
 }
 
 hr.star-primary:after {
-    color: #f97a63;
+    color: #E86749;
     background-color: #fff;
 }
 
@@ -89,7 +103,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #3fe3bb;
+    /* background: #13AC96; */
 }
 
 header .container {
@@ -108,7 +122,7 @@ header .intro-text .name {
     font-family: Urbane;
     font-size: 2em;
     font-weight: 700;
-    color: #f97a63;
+    color: #E86749;
 }
 
 header .intro-text .skills {
@@ -134,6 +148,7 @@ header .intro-text .skills {
 @media(min-width:768px) {
     .navbar-fixed-top {
         padding: 25px 0;
+        padding-bottom: 12px;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -152,6 +167,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        padding: 10px 5;
     }
 }
 
@@ -176,7 +192,42 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background-color: #67327D;
+    border-color: transparent;
 }
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #13AC96;
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #E86749;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #E86749;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #E86749;
+  color: #ffffff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #E86749;
+  }
 
 section {
     padding: 100px 0;
@@ -189,7 +240,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #3fe3bb;
+    background: #13AC96;
     font-family: Urbane;
 }
 
@@ -199,7 +250,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
     outline: 0;
-    color: #343d40;
+    color: #67327D;
 }
 
 @media(max-width:767px) {
@@ -269,6 +320,11 @@ section.success a.active {
     }
 }
 
+.btn-success {
+    color: #ffffff;
+    background-color: #13AC96;
+    border-color: #13AC96;
+  }
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
@@ -283,7 +339,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #3fe3bb;
+    color: #13AC96;
     background: #fff;
 }
 
@@ -337,7 +393,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #3fe3bb;
+    color: #13AC96;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -354,16 +410,16 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #343d40;
+    background-color: #67327D;
 }
 
 footer .footer-col {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #343d40;
+    background-color: #67327D;
 }
 
 .btn-social {
@@ -447,7 +503,7 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #343d40;
+    background-color: #67327D;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -457,7 +513,7 @@ footer .footer-below {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #343d40;
+    background-color: #67327D;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);

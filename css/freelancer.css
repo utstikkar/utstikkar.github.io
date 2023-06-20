@@ -171,6 +171,12 @@ header .intro-text .skills {
     }
 }
 
+.alert-success {
+    background-color: #13AC96;
+    border-color: #13AC96;
+    color: #fff;
+}
+
 .navbar {
     text-transform: uppercase;
     font-family: Urbane;
@@ -370,7 +376,7 @@ section.success a.active {
     position: relative;
     top: 2em;
     margin: 0;
-    font-size: .85em;
+    font-size: 1.5em;
     font-family: Urbane;
     line-height: 1.764705882em;
     vertical-align: middle;

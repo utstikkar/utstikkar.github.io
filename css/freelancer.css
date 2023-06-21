@@ -12,7 +12,7 @@ body {
 
 p {
     font-family: Urbane;
-    font-size: 17px;
+    font-size: 15px;
     /* font-weight: 300; */
 }
 
@@ -36,8 +36,8 @@ strong {
 }
 
 img {
-    vertical-align: middle;
-    padding: 1px 1px;
+    vertical-align: text-bottom;
+    padding: 10px 10px;
 }
 
 img.grey_scale {
